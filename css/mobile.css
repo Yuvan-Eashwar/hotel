@@ -1,0 +1,100 @@
+/* #navbar .logo {
+  float: none;
+  text-align: center;
+}
+
+#navbar ul,
+#navbar ul li {
+  float: none;
+}
+
+#navbar ul li a {
+  border-bottom: dotted 1px #444444;
+  padding: 5px;
+} */
+
+.navbar ul li:not(:last-child) {
+  display: none;
+}
+
+.navbar .bars {
+  display: block;
+  float: right;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Navbar for <969px */
+.navbar-activate {
+  background: #333;
+  overflow: auto;
+}
+
+.navbar-activate .logo {
+  float: none;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.navbar-activate ul {
+  float: none;
+}
+
+.navbar-activate ul li {
+  float: none;
+}
+
+.navbar-activate ul li a {
+  display: block;
+  padding: 5px;
+  text-align: center;
+  font-size: 16px;
+  border-bottom: dotted 1px #444444;
+}
+
+.navbar-activate ul li a:hover,
+.current {
+  color: var(--primary-color);
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-activate .bars {
+  display: none;
+}
+
+/* Showcase1 */
+
+/* Home Info */
+#home-info {
+  height: 550px;
+}
+
+#home-info .info-img {
+  display: none;
+}
+
+#home-info .info-content {
+  max-width: 100%;
+  float: none;
+}
+
+.box {
+  float: none;
+  width: 100%;
+}
+
+.about-content,
+.about-image {
+  float: none;
+  width: 100%;
+}
+
+#about-hotel .about-image {
+  width: 100%;
+  float: none;
+}
+
+#features .box {
+  border-bottom: dotted #444444 2px;
+}
